@@ -1,0 +1,532 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Trần Thị Việt Trinh</title>
+	<link href="style.css" rel="stylesheet" type="text/css" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body onload="myF()">
+	<script type="text/javascript">
+function hide_float_right() {
+    var content = document.getElementById('float_content_right');
+    var hide = document.getElementById('hide_float_right');
+    if (content.style.display == "none")
+    {content.style.display = "block"; hide.innerHTML = '<a href="javascript:hide_float_right()"> Tắt quảng cáo [X]</a>'; }
+        else { content.style.display = "none"; hide.innerHTML = '<a href="javascript:hide_float_right()">Sản Phẩm Khuyến Mại 75%</a>';
+    }
+    }
+	function myF(){
+      onl.style.display = "block";
+      
+    }
+    function un(){
+        onl.style.display = "none";
+    }
+</script>
+	
+<style>
+.float-ck { position: fixed; bottom: 30px; z-index: 9000}
+* html .float-ck {position:absolute;bottom:auto;top:expression(eval (document.documentElement.scrollTop+document.docum entElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))) ;}
+#float_content_right {border: 3px solid #01AEF0;}
+#hide_float_right {text-align:right; font-size: 11px;}
+#hide_float_right a {background: #01AEF0; padding: 2px 4px; color: #FFF;}
+</style>
+
+
+    <div id="onl" style="position: fixed; bottom: 120px; top: 80px; left: 300px; z-index: 100; display: block;">
+        <div style="backgroud-color:black; width:1000px; height=200px;">
+            <a href="javascript:un()" style="color:#F00;"> Tắt quảng cáo [X]</a>
+            <img src="assets/18645949645359135097711293669410337184016744n-1623899410647206621826.webp" width="450" height="450">
+        </div>
+    </div>
+	<div class="tab">
+		
+              <button >  <img src="assets/logo.png" width = "100" height="50" alt="">  </button >
+                
+  <button class="tablinks" onclick="openCity(event, 'Trang Chủ')">Trang Chủ</button>
+  <button class="tablinks" onclick="openCity(event, 'Sản Phẩm')">Sản Phẩm</button>
+  <button class="tablinks" onclick="openCity(event, 'Feedback')">Feedback </button>
+		<button class="tablinks" onclick="openCity(event, 'Đăng Ký')">Đăng Ký </button>
+</div>
+
+<div id="Sản Phẩm" class="tabcontent">
+   <div id="wp-products">
+            <h2>SẢN PHẨM CỦA CHÚNG TÔI</h2>
+            <ul id="list-products">
+                <div class="item">
+                    <img src="assets/product_1.png" alt="">
+                    <div class="stars">
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                    </div>
+
+                    <div class="name">Nem nướng</div>
+                    <div class="desc">chế biến từ thịt nạc giã nhuyễn, trộn đều với mỡ hạt lựu và một số gia vị như tỏi, đường, tiêu, muối…  </div>
+                    <div class="price">30.000 VNĐ</div>
+                </div>
+
+
+                <div class="item">
+                    <img src="assets/product_2.png" alt="">
+                    <div class="stars">
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                    </div>
+
+                    <div class="name">Sandwich kèm trứng muối</div>
+                    <div class="desc">Thơm ngon đến tận cùng khi bạn thưởng thức nó.</div>
+                    <div class="price">50.000 VNĐ</div>
+                </div>
+
+
+                <div class="item">
+                    <img src="assets/product_3.png" alt="">
+                    <div class="stars">
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                    </div>
+
+                    <div class="name">Salad trứng muối</div>
+                    <div class="desc">Thành phần gồm trứng, cà chua bi, bơ, cải,.. ăn rất ngon bạn nên thưởng thức</div>
+                    <div class="price">50.000 VNĐ</div>
+                </div>
+                <div class="item">
+                    <img src="assets/product_4.png" alt="">
+                    <div class="stars">
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                    </div>
+
+                    <div class="name">Hamburger bò</div>
+                    <div class="desc">Hamburger là món ăn nhanh yêu thích và lựa chọn là món ăn sáng hàng đầu bởi sự nhanh chóng và tiện lợi. </div>
+                    <div class="price">75.000 VNĐ</div>
+                </div>
+
+                <div class="item">
+                    <img src="assets/product_5.png" alt="">
+                    <div class="stars">
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                    </div>
+
+                    <div class="name">Taco</div>
+                    <div class="desc"> bánh được tráng bởi bột ngô cùng với thịt bò được nướng qua dầu và muối biển.</div>
+                    <div class="price">100.000 VNĐ</div>
+                </div>
+
+                <div class="item">
+                    <img src="assets/product_6.png" alt="">
+                    <div class="stars">
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                    </div>
+
+                    <div class="name">Cá hồi sốt cam</div>
+                    <div class="desc">là món ăn với hàm lượng dinh dưỡng cao, không chứa quá nhiều chất béo, tốt cho sức khỏe. </div>
+                    <div class="price">150.000 VNĐ</div>
+                </div>
+				
+				 <div class="item">
+                    <img src="assets/ban-co-biet.jpg" alt="" width ="256px" height="174px">
+                    <div class="stars">
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                    </div>
+
+                    <div class="name">Mì Ý sốt bò bằm</div>
+                    <div class="desc">hay còn gọi là mì Spaghetti đã trở thành món ăn phổ biến trên toàn thế giới</div>
+                    <div class="price">85.000 VNĐ</div>
+                </div>
+				
+				 
+				
+				 <div class="item">
+                    <img src="assets/nha-hang-5-sao-quan-1.jpg" alt="" width ="256px" height="174px">
+                    <div class="stars">
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                    </div>
+
+                    <div class="name">Hải sản sốt phô mai</div>
+                    <div class="desc">Vị chua cay đặc trưng, quyến rũ khiến loạt món sốt Thái dễ dàng bị đưa vào tầm ngắm trong thời tiết này.</div>
+                    <div class="price">250.000 VNĐ</div>
+                </div>
+            </ul>
+            <div class="list-page">
+                <div class="item">
+                    <a href="">1</a>
+                </div>
+                <div class="item">
+                    <a href="">2</a>
+                </div>
+                <div class="item">
+                    <a href="">3</a>
+				</div>
+            </div>
+        </div>
+</div>
+
+<div id="Trang Chủ"class="tabcontent">
+   <div id="banner">
+            <div class="box-left">
+                <h2>
+                    <span>THỨC ĂN</span>
+                    <br>
+                    <span>THƯỢNG HẠNG</span>
+                </h2>
+                <p>Chuyên cung cấp các món ăn đảm bảo dinh dưỡng
+                    hợp vệ sinh đến người dùng,phục vụ người dùng 1 cái
+                    hoàn hảo nhất</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="box-right">
+                <img src="assets/img_1.png" alt="">
+                <img src="assets/img_2.png" alt="">
+                <img src="assets/img_3.png" alt="">
+            </div>
+            <div class="to-bottom">
+                <a href="">
+                    <img src="assets/to_bottom.png" alt="">
+                </a>
+            </div>
+        </div>
+	<br>
+	<br>
+	<br>
+     <div id="saleoff">
+            <div class="box-left">
+                <h1>
+                    <span>GIẢM GIÁ LÊN ĐẾN</span>
+                    <span>45%</span>
+                </h1>
+            </div>
+            <div class="box-right"></div>
+        </div>
+	 <div id="footer">
+            <div class="box">
+                <div class="logo">
+                    <img src="assets/logo.png" width = "150" height="75" alt="">
+                </div>
+                <p>Cung cấp sản phẩm với chất lượng an toàn cho quý khách</p>
+            </div>
+            <div class="box">
+                <h3>NỘI DUNG</h3>
+                <ul class="quick-menu">
+                    <div class="item">
+                        <a href="">Trang chủ</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Sản phẩm</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Feedback</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Đăng ký</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>LIÊN HỆ</h3>
+                <form action="">
+                    <input type="text" placeholder="Địa chỉ email">
+                    <button>Nhận tin</button>
+                </form>
+            </div>
+        </div>
+   
+</div>
+	
+	<div id="Đăng Ký" class="tabcontent">
+ <form action="/action_page.php" style="max-width:500px;margin:auto">
+  <h2>Đăng ký</h2>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Username" name="usrnm">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw">
+  </div>
+
+  <button type="submit" class="btn">Register</button>
+</form>
+</div>
+
+<div id="Feedback" class="tabcontent">
+  
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+			
+		  <option value="Hà Giang">Hà Giang</option>
+          <option value="Hưng Yên">Hưng Yên</option>
+          <option value="Hà Nội">Hà Nội</option>
+          <option value="Vĩnh Phúc">Vĩnh Phúc</option>	
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Cảm nhận hoặc những đóng góp ý kiến của bạn..." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>	
+</div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+	<div>
+		<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: blue;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+	<button class="open-button" onclick="openForm()">Nhà hàng TT </button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Hỗ trợ online</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Gửi</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Đóng</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+		</div>
+</body>
+</html>
